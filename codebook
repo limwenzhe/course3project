@@ -1,0 +1,9 @@
+## Code Book
+
+The follwing transformations are applied to the UCI HAR Dataset:
+
+1. The training and the test sets are merged to create one data set.
+2. Only measurements on the mean and standard deviation for each measurement are extracted.
+3. Activity numeric labels are replaced with descriptive labels.
+4. Gathers the data into columns for subject, activity, feature, measurement type (mean or std) and value.
+5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
